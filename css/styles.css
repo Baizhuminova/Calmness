@@ -1,0 +1,231 @@
+.section{
+  background-color: #EBF5FB;
+}
+            /* Title page */
+
+h1{
+  color: #3E4969;
+  font-family:'Trirong', serif;
+  font-weight: bold;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+ p{
+  color:black;
+  padding: 1px 0px 10px 0px;
+  font-family: 'Amiri', serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+                /* Nav.bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #E0F3FD;
+  }
+
+li {
+  float: left;
+   }
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoratizn: none;
+      }
+
+li a:hover:not(.active) {
+background-color: #3E4969;
+opacity: .5;
+     }
+
+li a.active {
+color: white;
+background-color: #3E4969;
+     }
+               /* Button-Continue */
+
+.button {
+    background-color: #3E4969;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-weight: 700;
+    font-family:'Trirong', serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:20px;
+    margin-left:40em;
+    cursor: pointer;
+  }
+
+  .title-img {
+    margin-left: 26em;
+    padding-top: 60px;
+    height: 30em;
+    width: 43em;
+  }
+
+              /* Section page */
+.section-2 {
+  padding: 20px 0;
+}
+
+.section-item {
+  max-width: 950px;
+  margin: 0 auto 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title{
+  color: #3E4969;
+  font-family:'Trirong', serif;
+  font-size: 32px;
+  font-weight: 900;
+
+}
+
+.section-about{
+  padding-top: 15px;
+  color: black;
+  font-size: 22px;
+}
+
+            /* Vector illustration */
+.vector{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vector-item{
+  width: 35%;
+}
+
+.vector-2{
+  height: 20em;
+  width: 27em;
+}
+
+              /* Introduction */
+
+.section-1{
+  background-color: #EBF5FB;
+}
+.intro-title{
+  color: #3E4969;
+  padding-top:78px;
+  padding-left: 85px;
+  padding-bottom: 20px;
+  font-family:'Trirong', serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.intro-text
+{
+  font-family: 'Amiri', serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+
+.intro-img{
+  width: 500px;
+
+  margin: 15px 350px 0;
+}
+
+#section-3{
+  background-image: url(https://cdn140.picsart.com/291850351008201.png);
+  background-color: #EBF5FB;
+}
+
+.h6{
+  color: #3E4969;
+  font-family:'Trirong', serif;
+  font-size: 45px;
+
+}
+.section-titles{
+  color: #3E4969;
+  font-family:'Trirong', serif;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 30px 30px;
+}
+.section-titles:before{
+  background-color: #FFC4E6;
+  margin: 8px auto 15px;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 75px;
+
+}
+          /* Table page */
+ .tables{
+  flex-direction: column;
+ }
+
+ .tables-title{
+  font-family:'Amiri', serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  }
+
+ .tables-text{
+  font-family: 'Amiri', serif;
+  font-size: 17px;
+  text-align: center;
+  padding: 15px 90px 15px 90px;
+  }
+
+        /* Carousel Slide */
+ .carousel-item {
+  padding: 7% 15%;
+}
+
+          /* Footer */
+
+  .footer{
+   padding-top: 60px;
+   background-color: #F0F4F6;
+
+          }
+  .footer-logo{
+    color:#3E4969;
+    opacity: .5;
+    font-family: 'Trirong', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 20px;
+}
+  .footer-address{
+    color: black;
+    font-family: 'Amiri', serif;
+    font-size: 15px;
+    opacity: .7;
+    text-align: center;
+    padding-left: 5px;
+
+
+
+  }
