@@ -1,174 +1,188 @@
-.section{
+.container-fluid{
   background-color: #EBF5FB;
+  padding: 30px 0;
+
 }
             /* Title page */
 
 h1{
   color: #3E4969;
+  padding-top: 50px;
   font-family:'Trirong', serif;
   font-weight: bold;
   font-size: 4.5rem;
   text-align: center;
+
 }
 
  p{
   color:black;
-  padding: 1px 0px 10px 0px;
   font-family: 'Amiri', serif;
   font-weight: normal;
   font-size: 22px;
+  padding: 60px 0 40px 0;
+
   text-align: center;
+
+}
+
+.title-img {
+  height: 30em;
+  width: 42em;
+
 }
                 /* Nav.bar */
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #E0F3FD;
-  }
+.navbar {
+padding-bottom: 1rem;
+}
 
-li {
-  float: left;
-   }
 
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
-      }
+.navbar .navbar-brand{
+color: #3E4969;
+}
 
-li a:hover:not(.active) {
-background-color: #3E4969;
-opacity: .5;
-     }
 
-li a.active {
-color: white;
-background-color: #3E4969;
-     }
+.navbar-brand {
+padding-left: 30px;
+font-family: 'Trirong', serif;
+font-weight: bold;
+font-size: 1.7rem;
+}
+
+
+.nav-item{
+  padding: 0 25px;
+
+
+}
+.nav-link{
+font-family: 'Trirong', serif;
+font-size: 1.1em;
+font-weight: bold;
+
+                }
+
                /* Button-Continue */
 
-.button {
-    background-color: #3E4969;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    font-weight: 700;
-    font-family:'Trirong', serif;
-    display: inline-block;
-    font-size: 16px;
-    margin-top:20px;
-    margin-left:40em;
-    cursor: pointer;
-  }
 
-  .title-img {
-    margin-left: 26em;
-    padding-top: 60px;
-    height: 30em;
-    width: 43em;
-  }
+.custom-btn{
+  background-color:#3E4969;
+  border-radius: 10%;
+  padding:8px 15px;
+  margin-left: 15em;
+  color: white;
+  font-family: 'Trirong', serif;
+  font-size: 1.2rem;
+  text-decoration: none;
 
-              /* Section page */
+}
+
+          /* Section page */
+
+
 .section-2 {
   padding: 20px 0;
 }
 
+
 .section-item {
   max-width: 950px;
   margin: 0 auto 50px;
-  width: 100%;
   text-align: center;
 }
+
 
 .section-title{
   color: #3E4969;
   font-family:'Trirong', serif;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: bold;
+  text-align: center;
 
 }
 
+
 .section-about{
-  padding-top: 15px;
   color: black;
   font-size: 22px;
 }
 
+
+
             /* Vector illustration */
+
 .vector{
   display: flex;
   justify-content: space-between;
 }
 
-.vector-item{
-  width: 35%;
-}
 
 .vector-2{
-  height: 20em;
   width: 27em;
 }
 
-              /* Introduction */
+               /*  Card */
 
-.section-1{
-  background-color: #EBF5FB;
+
+.card-item{
+  padding-top: 30px;
+    background-image: url(https://cdn140.picsart.com/291850351008201.png);
 }
-.intro-title{
+
+
+.card-title{
   color: #3E4969;
-  padding-top:78px;
-  padding-left: 85px;
-  padding-bottom: 20px;
   font-family:'Trirong', serif;
-  font-size: 32px;
-  font-weight: 900;
-  text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
-.intro-text
-{
+
+.card-text{
   font-family: 'Amiri', serif;
-  font-size: 25px;
-  color: black;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  padding-left: 90px;
-  padding-right: 90px;
+}
+
+
+                /* Alert */
+
+.alert-one {
+  padding: 10px 0;
+}
+.alert-two{
+  padding: 10px 0;
+  font-size: 19px;
+  font-family: 'Amiri', serif;
 
 }
 
-.intro-img{
-  width: 500px;
-
-  margin: 15px 350px 0;
+.alert-heading{
+  font-family:'Trirong', serif;
+  font-weight: bold;
 }
+        /* Section-3 */
 
-#section-3{
+
+.section-3{
   background-image: url(https://cdn140.picsart.com/291850351008201.png);
   background-color: #EBF5FB;
 }
 
-.h6{
-  color: #3E4969;
-  font-family:'Trirong', serif;
-  font-size: 45px;
 
+.carousel-item{
+  padding: 0 80px;
 }
+
 .section-titles{
   color: #3E4969;
   font-family:'Trirong', serif;
   font-size: 35px;
   font-weight: 600;
-  padding: 30px 30px;
+  padding: 15px 30px;
+
 }
+
+
 .section-titles:before{
   background-color: #FFC4E6;
   margin: 8px auto 15px;
@@ -178,33 +192,36 @@ background-color: #3E4969;
   width: 75px;
 
 }
+
           /* Table page */
- .tables{
-  flex-direction: column;
- }
 
  .tables-title{
   font-family:'Amiri', serif;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  padding-bottom: 15px;
   }
+
 
  .tables-text{
   font-family: 'Amiri', serif;
-  font-size: 17px;
+  font-size: 19px;
   text-align: center;
-  padding: 15px 90px 15px 90px;
+  padding: 5px 70px 50px 70px;
   }
 
- 
+
+
           /* Footer */
+
 
   .footer{
    padding-top: 60px;
    background-color: #F0F4F6;
+  }
 
-          }
+
   .footer-logo{
     color:#3E4969;
     opacity: .5;
@@ -214,6 +231,8 @@ background-color: #3E4969;
     text-align: center;
     padding-right: 20px;
 }
+
+
   .footer-address{
     color: black;
     font-family: 'Amiri', serif;
@@ -221,4 +240,5 @@ background-color: #3E4969;
     opacity: .7;
     text-align: center;
     padding-left: 5px;
+
   }
