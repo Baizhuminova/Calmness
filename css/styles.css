@@ -160,6 +160,52 @@ font-weight: bold;
   font-family:'Trirong', serif;
   font-weight: bold;
 }
+
+
+          /* Support */
+
+  .support{
+    background-color: #EBF5FB;
+
+    background-size: cover;
+}
+
+
+h2{
+    color: #3E4969;
+
+    padding-top: 50px;
+    font-family:'Trirong', serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+
+
+h4 {
+    color: #3E4969;
+    padding-top: 50px;
+    font-family:'Trirong', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+    font-family: 'Amiri', serif;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 60px 0 40px 0;
+    text-align: center;
+}
+
+a{ text-align: center;
+
+}
+
         /* Section-3 */
 
 
