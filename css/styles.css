@@ -202,21 +202,7 @@ p {
     text-align: center;
 }
 
-a{ text-align: center;
-
-}
-.button-2{
-    background-color:#3E4969;
-    border-radius: 10%;
-    padding:10px 15px;
-    margin-left: 28em;
-    color: white;
-    font-family: 'Trirong', serif;
-    font-size: 1.2rem;
-    text-shadow: dimgray;
-    text-decoration: none;
-
-}
+a{ text-align: center; }
 
         /* Section-3 */
 
